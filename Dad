@@ -1,0 +1,21 @@
+apt update
+
+apt upgrade
+
+apt install git
+
+apt install python
+
+git clone https://github.com/sundowndev/PhoneInfoga
+
+cd Phoneinfoga
+
+mv config.example.py config.py
+
+
+python3 -m pip install -r requeriments.txt
+
+python3 phoneinfoga.py -v
+
+
+python3 phoneinfoga.py -n numerodavitima 
